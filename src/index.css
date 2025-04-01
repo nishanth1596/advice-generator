@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --font-family: "Manrope", "sans-serif";
+
+  --color-DarkBlue: #202733;
+  --color-DarkGrayishBlue: #313a48;
+  --color-GrayishBlue: #4f5d74;
+  --color-LightCyan: #cee3e9;
+  --color-NeonGreen: #53ffaa;
+}
+
+@layer components {
+  .dropShadow {
+    box-shadow: 30px 50px 80px 0 rgba(0, 0, 0, 0.1002);
+  }
+}
