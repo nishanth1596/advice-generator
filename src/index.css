@@ -14,4 +14,8 @@
   .dropShadow {
     box-shadow: 30px 50px 80px 0 rgba(0, 0, 0, 0.1002);
   }
+
+  .btnDropShadow:hover {
+    box-shadow: 0 0 40px 0 var(--color-NeonGreen);
+  }
 }
