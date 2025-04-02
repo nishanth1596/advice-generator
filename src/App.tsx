@@ -39,7 +39,7 @@ function App() {
         <h2 className="text-NeonGreen text-[0.69rem] leading-[0.94rem] font-extrabold tracking-[3.48px] uppercase sm:text-[0.81rem] sm:leading-[1.11rem] sm:tracking-[4.09px]">
           Advice #{adviceData.id}
         </h2>
-        <p className="text-LightCyan mt-6 text-2xl leading-[2.06rem] font-extrabold tracking-[-0.26px]">
+        <p className="text-LightCyan mt-6 text-2xl leading-[2.06rem] font-extrabold tracking-[-0.26px] sm:text-[1.75rem] sm:leading-[2.09rem] sm:tracking-[-0.3px]">
           &quot;{adviceData.advice}&quot;
         </p>
 
